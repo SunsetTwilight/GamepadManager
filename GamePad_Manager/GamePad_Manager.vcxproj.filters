@@ -13,5 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="HID">
+      <UniqueIdentifier>{9004eb8b-9530-4838-8eba-2dcf4140791a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="HID\HID_DeviceInfo.cpp">
+      <Filter>HID</Filter>
+    </ClCompile>
+    <ClCompile Include="HID\HID_Bus.cpp">
+      <Filter>HID</Filter>
+    </ClCompile>
+    <ClCompile Include="HID\HID_Internalfunc.cpp">
+      <Filter>HID</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HID\HID_DeviceInfo.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\HID_BusType.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\HID_ID.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\HID_Bus.h">
+      <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="HID\HID_InternalFunc.h">
+      <Filter>HID</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
