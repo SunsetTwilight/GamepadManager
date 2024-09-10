@@ -24,6 +24,7 @@
     <ProjectGuid>{63b69afb-890d-4124-9b4f-e33d3e6dfdc1}</ProjectGuid>
     <RootNamespace>GamePadManager</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GamePadManager</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -49,7 +49,8 @@ int main(void)
 		printf("Manufacture String :%ls\n",		(*hid)->manufacturer_string);
 		printf("Product String     :%ls\n",		(*hid)->product_string);
 
-		printf("Usage Page         :0x%04x\n",	(*hid)->usage_page);
+		printf("Usage Page         :0x%04x\n",	(*hid)->usage_page)
+			;
 		printf("Usage              :0x%04x\n",	(*hid)->usage);
 
 		printf("Interface Numuber  :%d\n",		(*hid)->interface_number);
@@ -58,11 +59,11 @@ int main(void)
 			printf("BUS                :");
 			switch ((*hid)->bus_type)
 			{
-			case HID_BUS_TYPE_UNKNOWN:		printf("Unknown"); break;
-			case HID_BUS_TYPE_USB:			printf("USB"); break;
-			case HID_BUS_TYPE_BLUETOOTH:	printf("Bluetooth"); break;
-			case HID_BUS_TYPE_I2C:			printf("I2C"); break;
-			case HID_BUS_TYPE_SPI:			printf("SPI"); break;
+			case HID_BUS_TYPE_UNKNOWN:		printf("Unknown");		break;
+			case HID_BUS_TYPE_USB:			printf("USB");			break;
+			case HID_BUS_TYPE_BLUETOOTH:	printf("Bluetooth");	break;
+			case HID_BUS_TYPE_I2C:			printf("I2C");			break;
+			case HID_BUS_TYPE_SPI:			printf("SPI");			break;
 			default:
 				break;
 			}
