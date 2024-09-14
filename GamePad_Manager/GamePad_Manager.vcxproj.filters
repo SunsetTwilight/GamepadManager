@@ -16,9 +16,12 @@
     <Filter Include="HID">
       <UniqueIdentifier>{9004eb8b-9530-4838-8eba-2dcf4140791a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DirectInput">
+      <UniqueIdentifier>{b2409976-be3c-450e-a714-07d4ab209589}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main_01.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="HID\HID_DeviceInfo.cpp">
@@ -46,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="HID\HID_InternalFunc.h">
       <Filter>HID</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput\DirectInput.h">
+      <Filter>DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
