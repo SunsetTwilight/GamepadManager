@@ -33,6 +33,9 @@
     <ClCompile Include="HID\HID_Internalfunc.cpp">
       <Filter>HID</Filter>
     </ClCompile>
+    <ClCompile Include="DirectInput\DirectInput.cpp">
+      <Filter>DirectInput</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HID\HID_DeviceInfo.h">

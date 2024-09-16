@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DirectInput\DirectInput.cpp" />
     <ClCompile Include="HID\HID_Bus.cpp" />
     <ClCompile Include="HID\HID_DeviceInfo.cpp" />
     <ClCompile Include="HID\HID_Internalfunc.cpp" />
